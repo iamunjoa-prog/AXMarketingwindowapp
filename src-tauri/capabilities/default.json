@@ -1,0 +1,16 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "메인 창 권한",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:window:allow-create",
+    "opener:default",
+    "dialog:default",
+    "store:default",
+    "process:default",
+    "updater:default"
+  ]
+}

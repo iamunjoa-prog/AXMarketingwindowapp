@@ -1,0 +1,10 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "jira-session",
+  "description": "Jira 로그인 웹뷰에서 세션 쿠키로 REST 호출을 중계하기 위한 권한. 배경: knowledge/decisions/ADR-006-jira-auth-webview.md",
+  "windows": ["jira-session"],
+  "remote": {
+    "urls": ["https://jira.skbroadband.com/*"]
+  },
+  "permissions": ["core:event:default"]
+}
